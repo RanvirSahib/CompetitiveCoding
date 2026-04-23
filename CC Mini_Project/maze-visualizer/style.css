@@ -1,0 +1,51 @@
+body {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+}
+
+#grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+}
+
+.wall {
+    background: black;
+}
+
+.path {
+    background: #1e293b;
+}
+
+.visited {
+    background: blue;
+}
+
+.solution {
+    background: yellow;
+}
+
+.start { background: green; }
+.end { background: red; }
+
+#stats {
+    margin-top: 10px;
+}
+
+.start { background: green; }
+.end { background: red; }

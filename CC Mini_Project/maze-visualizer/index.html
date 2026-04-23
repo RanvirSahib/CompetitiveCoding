@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Maze Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Maze Visualizer Pro</h1>
+
+<div class="controls">
+    <button onclick="generateMaze()">Generate Maze</button>
+
+    <select id="algo">
+        <option value="bfs">BFS</option>
+        <option value="dfs">DFS</option>
+    </select>
+
+    <button onclick="solveMaze()">Solve</button>
+    <button onclick="resetGrid()">Reset</button>
+
+    <label>Speed:
+        <input type="range" id="speed" min="10" max="200" value="50">
+    </label>
+</div>
+
+<div id="stats">
+    <p>Red Color Stands For End</p>
+    <p>Green Color Stands For Start</p>
+</div>
+
+<div id="grid"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
